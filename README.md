@@ -1,5 +1,5 @@
 # Opencore-Dell-3010-Tricky
-A working Opencore configuration for the Dell Tricky Chromebox
+A working Opencore configuration for the Dell Tricky Chromebox. Also tested working for HP CB1 Zako Chromebox (Atheros Wifi card replaced with Intel AC7260).
 
 ## DISCLAIMER 
 I will not be held responsible for any damage, permanent loss of data or any sorts of consequences that may arise by using my configuration files on your devices. Please use at your own risk.
@@ -38,7 +38,7 @@ I will not be held responsible for any damage, permanent loss of data or any sor
 - AppleID and iServices
 
 ## Quirks/issues
-- N/A
+- Sleep issue (wake triggers a reboot)
 
 ## Setup Note
 1. Ensure to generate your own SMBIOS serial number etc and update the config plist
